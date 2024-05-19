@@ -1,0 +1,52 @@
+html, body {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 100;
+}
+
+ h2 {
+  font-weight: bold;
+}
+
+header h1 {
+  font-family: "Metamorphous", serif;
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+footer {
+  font-family: "Metamorphous", serif;
+}
+
+.article-mail {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.article-mail h2 {
+  font-weight: normal;
+}
+
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+header h1 a:focus,
+nav ul li a:focus{
+  border: 1px solid white;
+  outline: 1px solid white;
+}
+
+#exampleFormControlInput1:focus,
+#exampleFormControlTextarea1:focus {
+  box-shadow: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid orange;
+  outline: none;
+}
+
+#invia {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 100;
+}
